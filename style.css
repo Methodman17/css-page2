@@ -1,0 +1,40 @@
+.head_title {
+    background-color: #A52A2A;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.title_text {
+    color: white;
+}
+.cars {
+    margin-left: 200px;
+}
+.body {
+    margin-left: 10px;
+    margin-right: 1100px;
+    background-color:rgb(14, 14, 14);
+    margin-top: 150px;
+}
+.lorem {
+    margin-left: 25px;
+    font-family: Arial;
+    font-weight: normal;
+}
+.colortext {
+    color: blue;
+}
+.main {
+    background-color: white;
+}
+.sunset {
+    margin-left: 25px;
+}
+.footer {
+    background-color: black;
+    
+}
+.Copytight {
+    color: white;
+    margin-left: 350px;
+    margin-bottom: 20px;
+}
