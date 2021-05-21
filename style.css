@@ -1,40 +1,35 @@
-.head_title {
-    background-color: #A52A2A;
-    margin-left: 25px;
-    margin-top: 10px;
-}
-.title_text {
-    color: white;
-}
-.cars {
-    margin-left: 200px;
-}
 .body {
-    margin-left: 10px;
-    margin-right: 1100px;
-    background-color:rgb(14, 14, 14);
-    margin-top: 150px;
+    background-color:#990909;
 }
-.lorem {
-    margin-left: 25px;
-    font-family: Arial;
-    font-weight: normal;
+.header {
+    color: white;
+    text-align: center;
+    font-size: 18px;
 }
-.colortext {
-    color: blue;
-}
-.main {
-    background-color: white;
-}
-.sunset {
-    margin-left: 25px;
-}
-.footer {
+#navigation {
+    text-align: center;
     background-color: black;
     
 }
-.Copytight {
-    color: white;
-    margin-left: 350px;
-    margin-bottom: 20px;
+.img {
+    margin-right: 15;
 }
+
+#content {
+    text-align: center;
+    
+}
+
+.footer {
+    text-align: center;
+    margin-top: 200px;
+    background-color: rgb(255, 136, 0)
+}
+#sidebar {
+    color: #E25B11;
+    
+    flex-direction: column;
+}
+
+
+
