@@ -5,63 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-</head> 
+    <link rel="stylesheet" href="reset.css">
 <body class="body">
-    <header class="header">
-        <h1>http://www.yourpompany.com</h1>
-    </header>
-    <main class="main-conteiner">
-        <div id="container">
-            <div id="navigation">
-                <h2>
-                    <div class="img">
-                        <img src="img00.jpg" alt="" width="120" height="120">
-                        <img src="img01.jpg" alt="" width="120" height="120">
-                        <img src="img02.jpg" alt="" width="120" height="120">
-                        <img src="img03.jpg" alt="" width="120" height="120">
-                    </div>
-                    <nav id="navigation">
-                        <div class="button">
-                            <button>Home</button>
-                            <button>About</button>
-                            <button>Services</button>
-                            <button>Contact</button>
-                        </div>
-                    </nav>
-                </h2>
-            </div>
-                         
-            <div id="sidebar">
-                <h2>
-                    <p>Lorem,ipsum.</p>
-                    <p>Sapiente,accusamus.</p>
-                    <p>Ipsum,quit?</p>
-                    <p>Praesentium,excepturi?</p>
-                    <p>Distinctio,suscipit!</p>
-                </h2>
-
-            </div>
-                
-            <div id="content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cupiditate natus dolorum incidunt excepturi. Soluta facere dicta laudantium nihil iste nostrum distinctio ex earum mollitia, cupiditate animi dolor! Consectetur nesciunt blanditiis molestias mollitia esse, beatae suscipit facere doloribus ea deleniti libero est, alias obcaecati. Ratione similique et eos alias suscipit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, doloribus accusantium. Ea aspernatur eligendi est odit fugit tempora, debitis corrupti consectetur, ut sed commodi dolore inventore iusto sit ex, quod autem ipsum deleniti neque dolorem.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia minima aliquam unde eius, iure est.</p>
-            </div>
-                
-            <div id="right-bar">
-                <h2>Title</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-                                    
-            <div class="footer">
-                <p>
-                    &copy;Copyright
-                </p>
-            </div>
-        </div>
-    </main>    
+    <div class="wrapper">
+        <header class="header">
+            <!-- <div> -->
+            <img class="header-image" src="title.gif" alt="title">
+            <!-- </div> -->   
+            <nav class="header-menu">
+                <ul>
+                    <li>
+                        <img src="img00.jpg" width="152px"
+                        height="114" alt="Home">
+                        <p>Home</p>
+                    </li>
+                    <li>
+                        <img src="img01.jpg" width="152px"
+                        height="114" alt="About">
+                        <p>About</p>
+                    </li>
+                    <li>
+                        <img src="img02.jpg" width="152px"
+                        height="114" alt="Services">
+                        <p>Services</p>
+                    </li>
+                    <li>
+                        <img src="img03.jpg" width="152px"
+                        height="114" alt="Contact">
+                        <p>Contact</p>
+                    </li>
+                </ul>
+                <div style="clear:both"></div>
+            </nav>
+            
+        </header>
+        <main class="main">
+            <aside class="aside-left">
+                <ul>
+                    <li><a href="#">Lorem ipsum.</a></li>
+                    <li><a href="#">Sapiente, accusamus.</a></li>
+                    <li><a href="#">Ipsum, qui?</a></li>
+                    <li><a href="#">Praesentium, exceptire?</a></li>
+                    <li><a href="#">Distinctio, suscipit!</a></li>
+                </ul>
+            </aside>
+            <section class="main-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus perferendis, id optio nulla quasi saepe atque dicta quae non exercitationem numquam et tempore vero eius, inventore illo quos maxime iusto ea soluta iste consequatur autem? Doloremque autem maxime eius minus, voluptas mollitia vitae velit non libero fuga modi error qui amet reprehenderit iste temporibus officia sint debitis inventore. Aut, quos.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui quod ab dignissimos iusto exercitationem saepe, reiciendis laudantium placeat et fugiat.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nesciunt doloribus tenetur impedit non, repudiandae voluptatem perspiciatis iure?</p>
+            </section>
+            <aside class="aside-right">
+                <p class="aside-right-title">Title</p>
+                <hr>
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </article> 
+                <hr>
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </article>
+                <hr>
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </article>
+            </aside>
+            <div style="clear:both"></div>
+        </main>
+        <footer class="footer">
+            <p>
+                &copy; Copiright
+            </p>
+        </footer>
+    </div>
 </body>     
-
 </html>
